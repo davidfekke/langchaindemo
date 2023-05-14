@@ -5,13 +5,17 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "gpt:call": "node gptcall.js"
+    "gpt:call": "node gptcall.js",
+    "puppet": "node puppeteer.js",
+    "completion": "node completions.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.3",
-    "langchain": "^0.0.75"
+    "langchain": "^0.0.75",
+    "openai": "^3.2.1",
+    "puppeteer": "^19.11.1"
   }
 }

@@ -6,16 +6,20 @@
   "type": "module",
   "scripts": {
     "gpt:call": "node gptcall.js",
-    "puppet": "node puppeteer.js",
-    "completion": "node completions.js"
+    "simpleembeddings": "node simpleembeddings.js",
+    "completion": "node completions.js",
+    "pdfloader": "node pdfloader.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@pinecone-database/pinecone": "^0.1.5",
     "dotenv": "^16.0.3",
+    "hnswlib-node": "^1.4.2",
     "langchain": "^0.0.75",
     "openai": "^3.2.1",
+    "pdf-parse": "^1.1.1",
     "puppeteer": "^19.11.1"
   }
 }
